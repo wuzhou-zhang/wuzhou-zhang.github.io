@@ -25,7 +25,7 @@ $.getScript('togeojson.js', function () {
         document.getElementById('caption').innerHTML = "Wuzhou's " + numTrails + " Hikes in Bay Area (and Beyond)";
         for (var i = 0; i < numTrails; i++) {
             var trail = data[i];
-            $.ajax('data/' + trail).done(function(gpx) {
+            $.ajax('data/' + trail, {crossDomain: true}).done(function(gpx) {
                 // The first argument of toGeoJSON.gpx(...) must be a GPX document as an XML DOM - not as a string.
                 var geoJSON = toGeoJSON.gpx(toDOM(gpx));
                 L.geoJSON(geoJSON).addTo(map);
