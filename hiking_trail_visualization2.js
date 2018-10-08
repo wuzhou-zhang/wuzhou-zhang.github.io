@@ -14,8 +14,10 @@ $.getJSON('trails_index.json', function(data) {
     for (var i = 0; i < numTrails; i++) {
         var trail = data[i];
         $.getJSON('json_data/' + trail + '.json', function(data) {
-            // map.addLayer(constructGtPathLayer(data['trace']));
             var hikeName = data['hikeName'];
+	    if (hikeName == 'Bair Island Hike') {
+	        map.addLayer(constructGtPathLayer(data['trace']));
+            }
             var startPoint = data['trace'][0];
             L.marker([startPoint[0], startPoint[1]]).addTo(map)
                 .bindPopup("<b>" + hikeName + "</b>");
