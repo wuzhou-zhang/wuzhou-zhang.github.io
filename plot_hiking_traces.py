@@ -10,9 +10,9 @@ script_dir = os.path.dirname(os.path.realpath(__file__))
 data_dir = os.path.join(script_dir, 'data')
 gpx_files = glob.glob(os.path.join(data_dir, '*.gpx'))
 
-# gpx_files = gpx_files[:1]
+# gpx_files = gpx_files[:10]
 
-map = folium.Map(location=[37.518943, -122.138206], zoom_start=10)
+map = folium.Map(location=[37.518943, -122.138206], zoom_start=9)
 
 for idx, gpx_file in enumerate(gpx_files):
     with open(gpx_file, 'r') as f:
