@@ -27,7 +27,10 @@ for idx, gpx_file in enumerate(gpx_files):
         folium.Marker([start_point.latitude, start_point.longitude], popup=popup_text).add_to(map)
 
         points = [tuple([point.latitude, point.longitude]) for point in data_points]
-        folium.PolyLine(points, color="blue", weight=1.5, opacity=1).add_to(map)
+	if 'Slate' in gpx_file:
+		folium.PolyLine(points, color="red", weight=1.5, opacity=1).add_to(map)
+	else:
+		folium.PolyLine(points, color="blue", weight=1.5, opacity=1).add_to(map)
 
 output_html_path = os.path.join(script_dir, 'index.html')
 map.save(output_html_path)
