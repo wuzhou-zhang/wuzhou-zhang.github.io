@@ -23,7 +23,7 @@ for idx, gpx_file in enumerate(gpx_files):
 
         start_point = data_points[0]
         start_time = start_point.time
-        popup_text = '<b>{}</b><br>{}'.format(hike_name, start_time)
+        popup_text = '<b>{}</b><br>{}'.format(hike_name, start_time.strftime('%Y-%m-%d'))
         folium.Marker([start_point.latitude, start_point.longitude], popup=popup_text).add_to(map)
 
         points = [tuple([point.latitude, point.longitude]) for point in data_points]
