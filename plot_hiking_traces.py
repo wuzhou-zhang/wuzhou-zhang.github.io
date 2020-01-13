@@ -20,6 +20,8 @@ for idx, gpx_file in enumerate(gpx_files):
         data_points = gpx.tracks[0].segments[0].points
         hike_name = gpx.tracks[0].name
         print("{}: {}".format(idx, hike_name))
+	if 'Estate' in hike_name:
+            continue
 
         start_point = data_points[0]
         start_time = start_point.time
@@ -27,7 +29,10 @@ for idx, gpx_file in enumerate(gpx_files):
         folium.Marker([start_point.latitude, start_point.longitude], popup=popup_text).add_to(map)
 
         points = [tuple([point.latitude, point.longitude]) for point in data_points]
-        folium.PolyLine(points, color="blue", weight=1.5, opacity=1).add_to(map)
+        if 'from Saratoga Gap' in hike_name:
+            folium.PolyLine(points, color="red", weight=4.5, opacity=1).add_to(map)
+        else:
+            folium.PolyLine(points, color="blue", weight=3.0, opacity=1).add_to(map)
 
 output_html_path = os.path.join(script_dir, 'index.html')
 map.save(output_html_path)
