@@ -25,11 +25,13 @@ for idx, gpx_file in enumerate(gpx_files):
 
         start_point = data_points[0]
         start_time = start_point.time
+	print start_time
+        print type(start_time)
         popup_text = '<b>{}</b><br>{}'.format(hike_name, start_time.strftime('%Y-%m-%d'))
         folium.Marker([start_point.latitude, start_point.longitude], popup=popup_text).add_to(map)
 
         points = [tuple([point.latitude, point.longitude]) for point in data_points]
-        if 'from Saratoga Gap' in hike_name:
+        if False and 'Bay Area' in hike_name and hike_name.startswith('Bay'):
             folium.PolyLine(points, color="red", weight=4.5, opacity=1).add_to(map)
         else:
             folium.PolyLine(points, color="blue", weight=3.0, opacity=1).add_to(map)
