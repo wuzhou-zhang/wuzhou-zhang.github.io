@@ -14,27 +14,41 @@ gpx_files = glob.glob(os.path.join(data_dir, '*.gpx'))
 
 map = folium.Map(location=[37.518943, -122.138206], zoom_start=9)
 
+newest_start_time = None
+newest_hike_name = None
+gpx_list = []
 for idx, gpx_file in enumerate(gpx_files):
     with open(gpx_file, 'r') as f:
         gpx = gpxpy.parse(f)
+        gpx_list.append(gpx)
         data_points = gpx.tracks[0].segments[0].points
         hike_name = gpx.tracks[0].name
-        print("{}: {}".format(idx, hike_name))
-	if 'Estate' in hike_name:
-            continue
-
+        print("Parsed {}: {}".format(idx, hike_name))
         start_point = data_points[0]
         start_time = start_point.time
-	print start_time
-        print type(start_time)
-        popup_text = '<b>{}</b><br>{}'.format(hike_name, start_time.strftime('%Y-%m-%d'))
-        folium.Marker([start_point.latitude, start_point.longitude], popup=popup_text).add_to(map)
+        if newest_start_time is None or newest_start_time < start_time:
+            newest_start_time = start_time
+            newest_hike_name = hike_name
+print('Newest hike:', newest_hike_name, newest_start_time)
 
-        points = [tuple([point.latitude, point.longitude]) for point in data_points]
-        if False and 'Bay Area' in hike_name and hike_name.startswith('Bay'):
-            folium.PolyLine(points, color="red", weight=4.5, opacity=1).add_to(map)
-        else:
-            folium.PolyLine(points, color="blue", weight=3.0, opacity=1).add_to(map)
+for idx, gpx in enumerate(gpx_list):
+    data_points = gpx.tracks[0].segments[0].points
+    hike_name = gpx.tracks[0].name
+    print("Plotting {}: {}".format(idx, hike_name))
+    if 'Estate' in hike_name:
+        continue
+
+    start_point = data_points[0]
+    start_time = start_point.time
+    print start_time
+    popup_text = '<b>{}</b><br>{}'.format(hike_name, start_time.strftime('%Y-%m-%d'))
+    folium.Marker([start_point.latitude, start_point.longitude], popup=popup_text).add_to(map)
+
+    points = [tuple([point.latitude, point.longitude]) for point in data_points]
+    if hike_name == newest_hike_name:
+        folium.PolyLine(points, color="red", weight=4.5, opacity=1).add_to(map)
+    else:
+        folium.PolyLine(points, color="blue", weight=3.0, opacity=1).add_to(map)
 
 output_html_path = os.path.join(script_dir, 'index.html')
 map.save(output_html_path)
