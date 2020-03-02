@@ -1,0 +1,66 @@
+name,location,visited, # of visits
+Denali National Park,Alaska,,
+Gates of the Arctic National Park,Alaska,,
+Glacier Bay National Park,Alaska,,
+Katmai National Park,Alaska,,
+Kenai Fjords National Park,Alaska,,
+Kobuk Valley National Park,Alaska,,
+Lake Clark National Park,Alaska,,
+Wrangell-St. Elias National Park,Alaska,,
+American Samoa National Park,American Samoa Territory,,
+Grand Canyon National Park,Arizona,YES,1
+Petrified Forest National Park,Arizona,YES,1
+Saguaro National Park,Arizona,YES,1
+Hot Springs National Park,Arkansas,,
+Channel Islands National Park,California,YES,1
+Joshua Tree National Park,California,YES,2
+Kings Canyon National Park,California,YES,2
+Lassen Volcanic Park,California,YES,2
+Pinnacles National Park,California,YES,5
+Redwood National Park,California,YES,1
+Sequoia National Park,California,YES,2
+Yosemite National Park,California,YES,3
+Death Valley National Park,"California, Nevada",YES,2
+Black Canyon of the Gunnison National Park,Colorado,,
+Great Sand Dunes National Park,Colorado,,
+Mesa Verde National Park,Colorado,,
+Rocky Mountain National Park,Colorado,YES,1
+Biscayne National Park,Florida,YES,1
+Dry Tortugas National Park,Florida,,
+Everglades National Park,Florida,YES,1
+Haleakala National Park,Hawaii,,
+Hawaii Volcanoes National Park,Hawaii,,
+Indiana Dunes National Park,Indiana,,
+Mammoth Cave Park,Kentucky,,
+Acadia National Park,Maine,,
+Isle Royale National Park,Michigan,,
+Voyageurs National Park,Minnesota,,
+Gateway Arch National Park,Missouri,,
+Glacier National Park,Montana,,
+Great Basin National Park,Nevada,,
+Carlsbad Caverns National Park,New Mexico,YES,1
+Great Smoky Mountains National Park,"North Carolina, Tennessee",YES,1
+Theodore Roosevelt National Park,North Dakota,,
+Cuyahoga Valley National Park,Ohio,,
+Crater Lake National Park,Oregon,YES,1
+Congaree National Park,South Carolina,,
+Badlands National Park,South Dakota,,
+Wind Cave National Park,South Dakota,,
+Big Bend National Park,Texas,YES,1
+Guadalupe Mountains National Park,Texas,YES,1
+Virgin Islands National Park,U.S. Virgin Islands,,
+Arches National Park,Utah,,
+Bryce Canyon National Park,Utah,,
+Canyonlands National Park,Utah,,
+Capitol Reef National Park,Utah,,
+Zion National Park,Utah,,
+Shenandoah National Park,Virginia,,
+Mount Rainier National Park,Washington,,
+North Cascades National Park,Washington,,
+Olympic National Park,Washington,,
+Grand Teton National Park,Wyoming,YES,1
+Yellowstone National Park,Wyoming,YES,1
+White Sands National Park,New Mexico,YES,1
+,,,
+,,,
+,,,34
