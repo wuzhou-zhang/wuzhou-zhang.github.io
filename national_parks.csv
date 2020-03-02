@@ -1,63 +1,63 @@
 name,latitude,longitude,location,visited, # of visits
-Acadia National Park,-68.21,44.35,Maine,,
-American Samoa National Park,-170.68,-14.25,American Samoa Territory,,
-Arches National Park,-109.57,38.68,Utah,,
-Badlands National Park,-102.5,43.75,South Dakota,,
-Big Bend National Park,-103.25,29.25,Texas,YES,1
-Biscayne National Park,-80.08,25.65,Florida,YES,1
-Black Canyon of the Gunnison National Park,-107.72,38.57,Colorado,,
-Bryce Canyon National Park,-112.18,37.57,Utah,,
-Canyonlands National Park,-109.93,38.2,Utah,,
-Capitol Reef National Park,-111.17,38.2,Utah,,
-Carlsbad Caverns National Park,-104.44,32.17,New Mexico,YES,1
-Channel Islands National Park,-119.42,34.01,California,YES,1
-Congaree National Park,-80.78,33.78,South Carolina,,
-Crater Lake National Park,-122.1,42.94,Oregon,YES,1
-Cuyahoga Valley National Park,-81.55,41.24,Ohio,,
-Death Valley National Park,-116.82,36.24,"California, Nevada",YES,2
-Denali National Park,-150.5,63.33,Alaska,,
-Dry Tortugas National Park,-82.87,24.63,Florida,,
-Everglades National Park,-80.93,25.32,Florida,YES,1
-Gates of the Arctic National Park,-153.3,67.78,Alaska,,
-Gateway Arch National Park,-90.19,38.63,Missouri,,
-Glacier Bay National Park,-137,58.5,Alaska,,
-Glacier National Park,-114,48.8,Montana,,
-Grand Canyon National Park,-112.14,36.06,Arizona,YES,1
-Grand Teton National Park,-110.8,43.73,Wyoming,YES,1
-Great Basin National Park,-114.3,38.98,Nevada,,
-Great Sand Dunes National Park,-105.51,37.73,Colorado,,
-Great Smoky Mountains National Park,-83.53,35.68,"North Carolina, Tennessee",YES,1
-Guadalupe Mountains National Park,-104.87,31.92,Texas,YES,1
-Haleakala National Park,-156.17,20.72,Hawaii,,
-Hawaii Volcanoes National Park,-155.2,19.38,Hawaii,,
-Hot Springs National Park,-93.05,34.51,Arkansas,,
-Indiana Dunes National Park,-87.0524,41.6533,Indiana,,
-Isle Royale National Park,-88.55,48.1,Michigan,,
-Joshua Tree National Park,-115.9,33.79,California,YES,2
-Katmai National Park,-155,58.5,Alaska,,
-Kenai Fjords National Park,-149.65,59.92,Alaska,,
-Kings Canyon National Park,-118.55,36.8,California,YES,2
-Kobuk Valley National Park,-159.28,67.55,Alaska,,
-Lake Clark National Park,-153.42,60.97,Alaska,,
-Lassen Volcanic National Park,-121.51,40.49,California,YES,2
-Mammoth Cave National Park,-86.1,37.18,Kentucky,,
-Mesa Verde National Park,-108.49,37.18,Colorado,,
-Mount Rainier National Park,-121.75,46.85,Washington,,
-North Cascades National Park,-121.2,48.7,Washington,,
-Olympic National Park,-123.5,47.97,Washington,,
-Petrified Forest National Park,-109.78,35.07,Arizona,YES,1
-Pinnacles National Park,-121.16,36.48,California,YES,5
-Redwood National Park,-124,41.3,California,YES,1
-Rocky Mountain National Park,-105.58,40.4,Colorado,YES,1
-Saguaro National Park,-110.5,32.25,Arizona,YES,1
-Sequoia National Park,-118.68,36.43,California,YES,2
-Shenandoah National Park,-78.35,38.53,Virginia,,
-Theodore Roosevelt National Park,-103.45,46.97,North Dakota,,
-Virgin Islands National Park,-64.73,18.33,U.S. Virgin Islands,,
-Voyageurs National Park,-92.88,48.5,Minnesota,,
-White Sands National Park,-106.17,32.78,New Mexico,YES,1
-Wind Cave National Park,-103.48,43.57,South Dakota,,
-Wrangell-St. Elias National Park,-142,61,Alaska,,
-Yellowstone National Park,-110.5,44.6,Wyoming,YES,1
-Yosemite National Park,-119.5,37.83,California,YES,3
-Zion National Park,-113.05,37.3,Utah,,
+Acadia National Park,44.35,-68.21,Maine,,
+American Samoa National Park,-14.25,-170.68,American Samoa Territory,,
+Arches National Park,38.68,-109.57,Utah,,
+Badlands National Park,43.75,-102.5,South Dakota,,
+Big Bend National Park,29.25,-103.25,Texas,YES,1
+Biscayne National Park,25.65,-80.08,Florida,YES,1
+Black Canyon of the Gunnison National Park,38.57,-107.72,Colorado,,
+Bryce Canyon National Park,37.57,-112.18,Utah,,
+Canyonlands National Park,38.2,-109.93,Utah,,
+Capitol Reef National Park,38.2,-111.17,Utah,,
+Carlsbad Caverns National Park,32.17,-104.44,New Mexico,YES,1
+Channel Islands National Park,34.01,-119.42,California,YES,1
+Congaree National Park,33.78,-80.78,South Carolina,,
+Crater Lake National Park,42.94,-122.1,Oregon,YES,1
+Cuyahoga Valley National Park,41.24,-81.55,Ohio,,
+Death Valley National Park,36.24,-116.82,"California, Nevada",YES,2
+Denali National Park,63.33,-150.5,Alaska,,
+Dry Tortugas National Park,24.63,-82.87,Florida,,
+Everglades National Park,25.32,-80.93,Florida,YES,1
+Gates of the Arctic National Park,67.78,-153.3,Alaska,,
+Gateway Arch National Park,38.63,-90.19,Missouri,,
+Glacier Bay National Park,58.5,-137,Alaska,,
+Glacier National Park,48.8,-114,Montana,,
+Grand Canyon National Park,36.06,-112.14,Arizona,YES,1
+Grand Teton National Park,43.73,-110.8,Wyoming,YES,1
+Great Basin National Park,38.98,-114.3,Nevada,,
+Great Sand Dunes National Park,37.73,-105.51,Colorado,,
+Great Smoky Mountains National Park,35.68,-83.53,"North Carolina, Tennessee",YES,1
+Guadalupe Mountains National Park,31.92,-104.87,Texas,YES,1
+Haleakala National Park,20.72,-156.17,Hawaii,,
+Hawaii Volcanoes National Park,19.38,-155.2,Hawaii,,
+Hot Springs National Park,34.51,-93.05,Arkansas,,
+Indiana Dunes National Park,41.6533,-87.0524,Indiana,,
+Isle Royale National Park,48.1,-88.55,Michigan,,
+Joshua Tree National Park,33.79,-115.9,California,YES,2
+Katmai National Park,58.5,-155,Alaska,,
+Kenai Fjords National Park,59.92,-149.65,Alaska,,
+Kings Canyon National Park,36.8,-118.55,California,YES,2
+Kobuk Valley National Park,67.55,-159.28,Alaska,,
+Lake Clark National Park,60.97,-153.42,Alaska,,
+Lassen Volcanic National Park,40.49,-121.51,California,YES,2
+Mammoth Cave National Park,37.18,-86.1,Kentucky,,
+Mesa Verde National Park,37.18,-108.49,Colorado,,
+Mount Rainier National Park,46.85,-121.75,Washington,,
+North Cascades National Park,48.7,-121.2,Washington,,
+Olympic National Park,47.97,-123.5,Washington,,
+Petrified Forest National Park,35.07,-109.78,Arizona,YES,1
+Pinnacles National Park,36.48,-121.16,California,YES,5
+Redwood National Park,41.3,-124,California,YES,1
+Rocky Mountain National Park,40.4,-105.58,Colorado,YES,1
+Saguaro National Park,32.25,-110.5,Arizona,YES,1
+Sequoia National Park,36.43,-118.68,California,YES,2
+Shenandoah National Park,38.53,-78.35,Virginia,,
+Theodore Roosevelt National Park,46.97,-103.45,North Dakota,,
+Virgin Islands National Park,18.33,-64.73,U.S. Virgin Islands,,
+Voyageurs National Park,48.5,-92.88,Minnesota,,
+White Sands National Park,32.78,-106.17,New Mexico,YES,1
+Wind Cave National Park,43.57,-103.48,South Dakota,,
+Wrangell-St. Elias National Park,61,-142,Alaska,,
+Yellowstone National Park,44.6,-110.5,Wyoming,YES,1
+Yosemite National Park,37.83,-119.5,California,YES,3
+Zion National Park,37.3,-113.05,Utah,,
