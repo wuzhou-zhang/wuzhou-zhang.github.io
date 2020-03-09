@@ -46,7 +46,7 @@ for idx, gpx in enumerate(gpx_list):
 
     points = [tuple([point.latitude, point.longitude]) for point in data_points]
     if hike_name == newest_hike_name:
-        folium.PolyLine(points, color="red", weight=4.5, opacity=1).add_to(map)
+        folium.PolyLine(points, color="red", weight=3.0, opacity=1).add_to(map)
     else:
         folium.PolyLine(points, color="blue", weight=3.0, opacity=1).add_to(map)
 
