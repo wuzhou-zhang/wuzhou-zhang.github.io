@@ -1,8 +1,33 @@
-Park Name,Managed by,Location,Status Link
-Coyote Lake Harvey Bear Ranch County Park,Santa Clara County Parks and Recreation Department,"Gilroy, CA",https://www.sccgov.org/sites/parks/Pages/open-space-these-parks.aspx
-Sanborn County Park,Santa Clara County Parks and Recreation Department,"Saratoga, CA",https://www.sccgov.org/sites/parks/Pages/open-space-these-parks.aspx
-Mt. Madonna County Park,Santa Clara County Parks and Recreation Department,"Watsonville, CA",https://www.sccgov.org/sites/parks/Pages/open-space-these-parks.aspx
-Stevens Creek County Park,Santa Clara County Parks and Recreation Department,"Cupertino, CA",https://www.sccgov.org/sites/parks/Pages/open-space-these-parks.aspx
-Calero County Park,Santa Clara County Parks and Recreation Department,"San Jose, CA",https://www.sccgov.org/sites/parks/Pages/open-space-these-parks.aspx
-Ed R. Levin County Park,Santa Clara County Parks and Recreation Department,"Milpitas, CA",https://www.sccgov.org/sites/parks/Pages/open-space-these-parks.aspx
-Joseph D. Grant County Park,Santa Clara County Parks and Recreation Department,"Mt Hamilton, CA",https://www.sccgov.org/sites/parks/Pages/open-space-these-parks.aspx
+Park Name,Managed by,Location,Status,Status Link
+Coyote Lake Harvey Bear Ranch County Park,Santa Clara County Parks and Recreation Department,"Gilroy, CA",OPEN,https://www.sccgov.org/sites/parks/Pages/open-space-these-parks.aspx
+Sanborn County Park,Santa Clara County Parks and Recreation Department,"Saratoga, CA",OPEN,https://www.sccgov.org/sites/parks/Pages/open-space-these-parks.aspx
+Mt. Madonna County Park,Santa Clara County Parks and Recreation Department,"Watsonville, CA",OPEN,https://www.sccgov.org/sites/parks/Pages/open-space-these-parks.aspx
+Stevens Creek County Park,Santa Clara County Parks and Recreation Department,"Cupertino, CA",OPEN,https://www.sccgov.org/sites/parks/Pages/open-space-these-parks.aspx
+Calero County Park,Santa Clara County Parks and Recreation Department,"San Jose, CA",OPEN,https://www.sccgov.org/sites/parks/Pages/open-space-these-parks.aspx
+Ed R. Levin County Park,Santa Clara County Parks and Recreation Department,"Milpitas, CA",OPEN,https://www.sccgov.org/sites/parks/Pages/open-space-these-parks.aspx
+Joseph D. Grant County Park,Santa Clara County Parks and Recreation Department,"Mt Hamilton, CA",OPEN,https://www.sccgov.org/sites/parks/Pages/open-space-these-parks.aspx
+Windy Hill Open Space Preserve,Midpeninsula Regional Open Space District,"Portola Valley, CA",CLOSED,https://www.openspace.org/preserves/windy-hill
+Bear Creek Redwoods Open Space Preserve,Midpeninsula Regional Open Space District,"Los Gatos, CA",OPEN,https://www.openspace.org/visit-a-preserve/trail-conditions
+Coal Creek Open Space Preserve,Midpeninsula Regional Open Space District,"Palomar Park, CA",OPEN,https://www.openspace.org/visit-a-preserve/trail-conditions
+El Corte de Madera Creek Open Space Preserve,Midpeninsula Regional Open Space District,"Redwood City, CA",OPEN,https://www.openspace.org/visit-a-preserve/trail-conditions
+El Sereno Open Space Preserve,Midpeninsula Regional Open Space District,"Los Gatos, CA",OPEN,https://www.openspace.org/visit-a-preserve/trail-conditions
+Foothills Open Space Preserve,Midpeninsula Regional Open Space District,"Los Altos, CA",OPEN,https://www.openspace.org/visit-a-preserve/trail-conditions
+Fremont Older Open Space Preserve,Midpeninsula Regional Open Space District,"Cupertino, CA",OPEN,https://www.openspace.org/visit-a-preserve/trail-conditions
+La Honda Creek Open Space Preserve,Midpeninsula Regional Open Space District,"Redwood City, CA",OPEN,https://www.openspace.org/visit-a-preserve/trail-conditions
+Long Ridge Open Space Preserve,Midpeninsula Regional Open Space District,"La Honda, CA",OPEN,https://www.openspace.org/visit-a-preserve/trail-conditions
+Los Trancos Open Space Preserve,Midpeninsula Regional Open Space District,"Los Altos Hills, CA",OPEN,https://www.openspace.org/visit-a-preserve/trail-conditions
+Monte Bello Open Space Preserve,Midpeninsula Regional Open Space District,"Palo Alto, CA",OPEN,https://www.openspace.org/visit-a-preserve/trail-conditions
+Picchetti Ranch Open Space Preserve,Midpeninsula Regional Open Space District,"Cupertino, CA",OPEN,https://www.openspace.org/visit-a-preserve/trail-conditions
+Pulgas Ridge Open Space Preserve,Midpeninsula Regional Open Space District,"Redwood City, CA",OPEN,https://www.openspace.org/visit-a-preserve/trail-conditions
+Purisima Creek Redwoods Open Space Preserve,Midpeninsula Regional Open Space District,"Half Moon Bay, CA",OPEN,https://www.openspace.org/visit-a-preserve/trail-conditions
+Rancho San Antonio Open Space Preserve,Midpeninsula Regional Open Space District,"Cupertino, CA",OPEN,https://www.openspace.org/visit-a-preserve/trail-conditions
+Ravenswood Open Space Preserve,Midpeninsula Regional Open Space District,"East Palo Alto, CA",OPEN,https://www.openspace.org/visit-a-preserve/trail-conditions
+Russian Ridge Open Space Preserve,Midpeninsula Regional Open Space District,"Redwood City, CA",OPEN,https://www.openspace.org/visit-a-preserve/trail-conditions
+St. Joseph's Hill Open Space Preserve,Midpeninsula Regional Open Space District,"Los Gatos, CA",OPEN,https://www.openspace.org/visit-a-preserve/trail-conditions
+Saratoga Gap Open Space Preserve,Midpeninsula Regional Open Space District,"Los Gatos, CA",OPEN,https://www.openspace.org/visit-a-preserve/trail-conditions
+Sierra Azul Open Space Preserve,Midpeninsula Regional Open Space District,"San Jose, CA",OPEN,https://www.openspace.org/visit-a-preserve/trail-conditions
+Skyline Ridge Open Space Preserve,Midpeninsula Regional Open Space District,"La Honda, CA",OPEN,https://www.openspace.org/visit-a-preserve/trail-conditions
+Steven's Creek Shoreline Nature Study Area Open Space Preserve,Midpeninsula Regional Open Space District,"Mountain View, CA",OPEN,https://www.openspace.org/visit-a-preserve/trail-conditions
+Teague Hill Open Space Preserve,Midpeninsula Regional Open Space District,"Woodside, CA",OPEN,https://www.openspace.org/visit-a-preserve/trail-conditions
+Thornewood Open Space Preserve,Midpeninsula Regional Open Space District,"Woodside, CA",OPEN,https://www.openspace.org/visit-a-preserve/trail-conditions
+Tunitas Creek Open Space Preserve,Midpeninsula Regional Open Space District,"Half Moon Bay, CA",OPEN,https://www.openspace.org/visit-a-preserve/trail-conditions
