@@ -1,3 +1,4 @@
+import datetime
 import folium
 import glob
 import gpxpy
@@ -26,6 +27,8 @@ for idx, gpx_file in enumerate(gpx_files):
         print("Parsed {}: {}".format(idx, hike_name))
         start_point = data_points[0]
         start_time = start_point.time
+        if start_time is None:
+           start_time = datetime.datetime.strptime(hike_name[-len('YYYY-MM-DD'):], '%Y-%m-%d')
         if newest_start_time is None or newest_start_time < start_time:
             newest_start_time = start_time
             newest_hike_name = hike_name
@@ -40,6 +43,8 @@ for idx, gpx in enumerate(gpx_list):
 
     start_point = data_points[0]
     start_time = start_point.time
+    if start_time is None:
+        start_time = datetime.datetime.strptime(hike_name[-len('YYYY-MM-DD'):], '%Y-%m-%d')
     print start_time
     popup_text = '<b>{}</b><br>{}'.format(hike_name, start_time.strftime('%Y-%m-%d'))
     folium.Marker([start_point.latitude, start_point.longitude], popup=popup_text).add_to(map)
