@@ -4,8 +4,8 @@ import glob
 import gpxpy
 import os
 import sys
-reload(sys)
-sys.setdefaultencoding('utf-8')
+# reload(sys)
+# sys.setdefaultencoding('utf-8')
 
 script_dir = os.path.dirname(os.path.realpath(__file__))
 data_dir = os.path.join(script_dir, 'data')
@@ -17,7 +17,7 @@ gpx_files = glob.glob(os.path.join(data_dir, '*.gpx'))
 map = folium.Map(location=[37.518943, -122.138206], zoom_start=9)
 
 for gpx_file in glob.glob(os.path.join(road_trips_dir, '*', '*.gpx')):
-    print gpx_file
+    print(gpx_file)
     with open(gpx_file, 'r') as f:
         gpx = gpxpy.parse(f)
         data_points = gpx.tracks[0].segments[0].points
@@ -39,9 +39,9 @@ for idx, gpx_file in enumerate(gpx_files):
         print("Parsed {}: {}".format(idx, hike_name))
         start_point = data_points[0]
         start_time = start_point.time
-        if start_time is None:
-           start_time = datetime.datetime.strptime(hike_name[-len('YYYY-MM-DD'):], '%Y-%m-%d')
-        if newest_start_time is None or newest_start_time < start_time:
+        # if start_time is None:
+           # start_time = datetime.datetime.strptime(hike_name[-len('YYYY-MM-DD'):], '%Y-%m-%d')
+        if newest_start_time is None or (start_time and newest_start_time < start_time):
             newest_start_time = start_time
             newest_hike_name = hike_name
 print('Newest hike:', newest_hike_name, newest_start_time)
@@ -57,7 +57,6 @@ for idx, gpx in enumerate(gpx_list):
     start_time = start_point.time
     if start_time is None:
         start_time = datetime.datetime.strptime(hike_name[-len('YYYY-MM-DD'):], '%Y-%m-%d')
-    print start_time
     popup_text = '<b>{}</b><br>{}'.format(hike_name, start_time.strftime('%Y-%m-%d'))
     folium.Marker([start_point.latitude, start_point.longitude], popup=popup_text).add_to(map)
 
