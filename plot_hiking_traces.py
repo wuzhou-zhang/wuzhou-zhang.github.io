@@ -7,6 +7,8 @@ import sys
 # reload(sys)
 # sys.setdefaultencoding('utf-8')
 
+last_update_time = datetime.datetime.strptime('2020-08-02', '%Y-%m-%d')
+
 script_dir = os.path.dirname(os.path.realpath(__file__))
 data_dir = os.path.join(script_dir, 'data')
 road_trips_dir = os.path.join(script_dir, 'road_trips')
@@ -61,7 +63,7 @@ for idx, gpx in enumerate(gpx_list):
     folium.Marker([start_point.latitude, start_point.longitude], popup=popup_text).add_to(map)
 
     points = [tuple([point.latitude, point.longitude]) for point in data_points]
-    if hike_name == newest_hike_name:
+    if start_time.strftime('%Y-%m-%d') > last_update_time.strftime('%Y-%m-%d'):
         folium.PolyLine(points, color="red", weight=3.0, opacity=1).add_to(map)
     else:
         folium.PolyLine(points, color="blue", weight=3.0, opacity=1).add_to(map)
