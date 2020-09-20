@@ -63,7 +63,7 @@ for idx, gpx in enumerate(gpx_list):
     folium.Marker([start_point.latitude, start_point.longitude], popup=popup_text).add_to(map)
 
     points = [tuple([point.latitude, point.longitude]) for point in data_points]
-    if start_time > last_update_time:
+    if start_time.strftime('%Y-%m-%d') > last_update_time.strftime('%Y-%m-%d'):
         folium.PolyLine(points, color="red", weight=3.0, opacity=1).add_to(map)
     else:
         folium.PolyLine(points, color="blue", weight=3.0, opacity=1).add_to(map)
