@@ -24,7 +24,7 @@ for gpx_file in glob.glob(os.path.join(road_trips_dir, '*', '*.gpx')):
         gpx = gpxpy.parse(f)
         data_points = gpx.tracks[0].segments[0].points
         points = [tuple([point.latitude, point.longitude]) for point in data_points]
-        folium.PolyLine(points, color="blue", weight=3.0, opacity=1).add_to(map)
+        # folium.PolyLine(points, color="blue", weight=3.0, opacity=1).add_to(map)
 
         output_html_path = os.path.join(script_dir, 'road_trips.html')
         map.save(output_html_path)
