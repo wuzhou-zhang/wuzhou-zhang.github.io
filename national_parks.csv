@@ -1,14 +1,14 @@
 name,latitude,longitude,location,visited, # of visits
 Acadia National Park,44.35,-68.21,Maine,,
 American Samoa National Park,-14.25,-170.68,American Samoa Territory,,
-Arches National Park,38.68,-109.57,Utah,,
+Arches National Park,38.68,-109.57,Utah,YES,1
 Badlands National Park,43.75,-102.5,South Dakota,,
 Big Bend National Park,29.25,-103.25,Texas,YES,1
 Biscayne National Park,25.65,-80.08,Florida,YES,1
 Black Canyon of the Gunnison National Park,38.57,-107.72,Colorado,,
-Bryce Canyon National Park,37.57,-112.18,Utah,,
-Canyonlands National Park,38.2,-109.93,Utah,,
-Capitol Reef National Park,38.2,-111.17,Utah,,
+Bryce Canyon National Park,37.57,-112.18,Utah,YES,1
+Canyonlands National Park,38.2,-109.93,Utah,YES,1
+Capitol Reef National Park,38.2,-111.17,Utah,YES,1
 Carlsbad Caverns National Park,32.17,-104.44,New Mexico,YES,1
 Channel Islands National Park,34.01,-119.42,California,YES,1
 Congaree National Park,33.78,-80.78,South Carolina,,
@@ -60,4 +60,4 @@ Wind Cave National Park,43.57,-103.48,South Dakota,,
 Wrangell-St. Elias National Park,61,-142,Alaska,,
 Yellowstone National Park,44.6,-110.5,Wyoming,YES,1
 Yosemite National Park,37.83,-119.5,California,YES,3
-Zion National Park,37.3,-113.05,Utah,,
+Zion National Park,37.3,-113.05,Utah,YES,1
