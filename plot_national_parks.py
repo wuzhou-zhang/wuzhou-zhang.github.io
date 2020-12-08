@@ -4,8 +4,14 @@ import glob
 import gpxpy
 import os
 import sys
-reload(sys)
-sys.setdefaultencoding('utf-8')
+
+if(sys.version_info.major>=3):
+    def reload(MODULE):        
+        import importlib
+        importlib.reload(MODULE)
+else:
+    reload(sys)
+    sys.setdefaultencoding('utf-8')
 
 script_dir = os.path.dirname(os.path.realpath(__file__))
 csv_file = os.path.join(script_dir, 'national_parks.csv')
@@ -26,7 +32,7 @@ national_park_list = []
 with open(csv_file) as f:
     csv_reader = csv.reader(f)
     for row in csv_reader:
-        print row
+        print(row)
         if row[0] == 'name':
             continue
         national_park_list.append(NationalPark(*row))
@@ -37,7 +43,7 @@ for national_park in national_park_list:
     # popup_text = '<b>{}</b><br>{}'.format(hike_name, start_time.strftime('%Y-%m-%d'))
     popup_text = '<b>{}</b><br>{}'.format(national_park.name, national_park.location)
 
-    print national_park.lat, national_park.lon
+    # print national_park.lat, national_park.lon
     if national_park.visited == 'YES':
         icon = folium.Icon(color='blue', icon_color='white', icon='map-marker')
     else:
