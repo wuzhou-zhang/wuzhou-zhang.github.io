@@ -23,7 +23,7 @@ Gateway Arch National Park,38.63,-90.19,Missouri,,
 Glacier Bay National Park,58.5,-137,Alaska,,
 Glacier National Park,48.8,-114,Montana,,
 Grand Canyon National Park,36.06,-112.14,Arizona,YES,1
-Grand Teton National Park,43.73,-110.8,Wyoming,YES,1
+Grand Teton National Park,43.73,-110.8,Wyoming,YES,2
 Great Basin National Park,38.98,-114.3,Nevada,,
 Great Sand Dunes National Park,37.73,-105.51,Colorado,,
 Great Smoky Mountains National Park,35.68,-83.53,"North Carolina, Tennessee",YES,1
@@ -42,12 +42,12 @@ Lake Clark National Park,60.97,-153.42,Alaska,,
 Lassen Volcanic National Park,40.49,-121.51,California,YES,2
 Mammoth Cave National Park,37.18,-86.1,Kentucky,,
 Mesa Verde National Park,37.18,-108.49,Colorado,,
-Mount Rainier National Park,46.85,-121.75,Washington,,
-North Cascades National Park,48.7,-121.2,Washington,,
-Olympic National Park,47.97,-123.5,Washington,,
+Mount Rainier National Park,46.85,-121.75,Washington,YES,1
+North Cascades National Park,48.7,-121.2,Washington,YES,1
+Olympic National Park,47.97,-123.5,Washington,YES,1
 Petrified Forest National Park,35.07,-109.78,Arizona,YES,1
 Pinnacles National Park,36.48,-121.16,California,YES,5
-Redwood National Park,41.3,-124,California,YES,1
+Redwood National Park,41.3,-124,California,YES,2
 Rocky Mountain National Park,40.4,-105.58,Colorado,YES,1
 Saguaro National Park,32.25,-110.5,Arizona,YES,1
 Sequoia National Park,36.43,-118.68,California,YES,2
