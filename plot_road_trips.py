@@ -18,13 +18,16 @@ gpx_files = glob.glob(os.path.join(data_dir, '*.gpx'))
 
 map = folium.Map(location=[37.518943, -122.138206], zoom_start=9)
 
-for gpx_file in glob.glob(os.path.join(road_trips_dir, '*', '*.gpx')):
+for gpx_file in sorted(glob.glob(os.path.join(road_trips_dir, '*', '*.gpx'))):
     print(gpx_file)
     with open(gpx_file, 'r') as f:
         gpx = gpxpy.parse(f)
         data_points = gpx.tracks[0].segments[0].points
         points = [tuple([point.latitude, point.longitude]) for point in data_points]
-        folium.PolyLine(points, color="blue", weight=3.0, opacity=1).add_to(map)
+        color = 'blue'
+        if '2021' in gpx_file:
+            color = 'red'
+        folium.PolyLine(points, color=color, weight=3.0, opacity=1).add_to(map)
 
 output_html_path = os.path.join(script_dir, 'road_trips.html')
 map.save(output_html_path)
