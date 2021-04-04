@@ -7,7 +7,7 @@ import sys
 # reload(sys)
 # sys.setdefaultencoding('utf-8')
 
-last_update_time = datetime.datetime.strptime('2020-08-02', '%Y-%m-%d')
+last_update_time = datetime.datetime.strptime('2020-12-20', '%Y-%m-%d')
 
 script_dir = os.path.dirname(os.path.realpath(__file__))
 data_dir = os.path.join(script_dir, 'data')

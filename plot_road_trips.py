@@ -28,7 +28,7 @@ for gpx_file in gpx_files:
         points = [tuple([point.latitude, point.longitude]) for point in data_points]
         color = 'blue'
         if '2021' in gpx_file:
-            color = 'blue'
+            color = 'red'
         folium.PolyLine(points, color=color, weight=3.0, opacity=1).add_to(map)
 
 output_html_path = os.path.join(script_dir, 'road_trips.html')
