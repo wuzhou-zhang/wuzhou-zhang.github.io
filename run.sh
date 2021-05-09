@@ -2,8 +2,8 @@
 
 set -e
 
-# conda init bash
-# conda activate env_for_wifi_location_dashboard
+eval "$(conda shell.bash hook)"
+conda activate env_for_wifi_location_dashboard
 
 python plot_hiking_traces.py
 
